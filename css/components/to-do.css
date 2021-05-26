@@ -7,6 +7,15 @@
   }
 }
 
+@keyframes listAppearAnimation {
+  from {
+    height: 0px;
+  }
+  to {
+    height: 100px;
+  }
+}
+
 .to-do__title {
   font-size: 100px;
   animation: fadeInMainTitleAnimation 1s ease-in-out forwards;
@@ -24,15 +33,6 @@
   justify-content: center;
 }
 
-@keyframes listAppearAnimation {
-  from {
-    height: 0px;
-  }
-  to {
-    height: 100px;
-  }
-}
-
 .to-do__list {
   margin-top: 10px;
   padding: 0px 20px;
@@ -40,4 +40,25 @@
   width: 90%;
   background-color: wheat;
   animation: listAppearAnimation 1s ease-in-out;
+  display: flex;
+  align-items: center;
+  flex-direction: column-reverse;
+}
+
+.to-do__writer {
+  padding: 5px;
+}
+
+.to-do__writer input {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+.to-do__send-btn {
+  border: none;
+}
+
+.to-do__contents li {
+  margin: 5px 0px;
 }

@@ -9,8 +9,23 @@
     <main class="main-screen">
       <div class="to-do__title">to do</div>
       <div class="to-do__box">
-        <ul class="to-do__list"></ul>
+        <div class="to-do__list">
+          <form class="to-do__writer">
+            <input type="text" placeholder="오늘의 할 일을 작성해볼까?" />
+            <button class="to-do__send-btn">
+              <i class="far fa-edit"></i>
+            </button>
+          </form>
+          <ul reversed class="to-do__contents">
+            <li>testing <i class="far fa-check-square"></i></li>
+            <li>test <i class="far fa-check-square"></i></li>
+          </ul>
+        </div>
       </div>
     </main>
   </body>
+  <script
+    src="https://kit.fontawesome.com/6478f529f2.js"
+    crossorigin="anonymous"
+  ></script>
 </html>
