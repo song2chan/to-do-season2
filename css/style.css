@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Pattaya&display=swap");
+@import "reset.css";
+@import "variables.css";
+
+/* components */
+@import "components/to-do.css";
+
+body {
+  font-family: "Pattaya";
+  text-transform: capitalize;
+}
+
+.main-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  flex-direction: column;
+}

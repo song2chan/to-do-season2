@@ -1,0 +1,43 @@
+@keyframes fadeInMainTitleAnimation {
+  from {
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.to-do__title {
+  font-size: 100px;
+  animation: fadeInMainTitleAnimation 1s ease-in-out forwards;
+  opacity: 0;
+  transform: translateX(-150px);
+  color: skyblue;
+}
+
+.to-do__box {
+  width: 70%;
+  height: 10px;
+  border-radius: 3px;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+}
+
+@keyframes listAppearAnimation {
+  from {
+    height: 0px;
+  }
+  to {
+    height: 100px;
+  }
+}
+
+.to-do__list {
+  margin-top: 10px;
+  padding: 0px 20px;
+  height: 100px;
+  width: 90%;
+  background-color: wheat;
+  animation: listAppearAnimation 1s ease-in-out;
+}
