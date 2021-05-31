@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Pattaya&display=swap");
 @import "reset.css";
 @import "variables.css";
+@import "to-do.css";
 
 /* components */
-@import "components/to-do.css";
 
 body {
   font-family: "Pattaya";

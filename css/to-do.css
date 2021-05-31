@@ -34,13 +34,12 @@
     height: 0px;
   }
   to {
-    height: 100px;
+    height: var(--test);
   }
 }
 
 .to-do__list {
   padding: 0px 20px;
-  height: 100px;
   width: 90%;
   background-color: wheat;
   animation: listAppearAnimation 1s ease-in-out forwards;
@@ -60,7 +59,7 @@
 
 .to-do__contents,
 .to-do__writer {
-  animation: fadeInToDoContents 3s ease-in-out forwards;
+  animation: fadeInToDoContents var(--testani);
 }
 
 .to-do__writer {
@@ -78,5 +77,8 @@
 }
 
 .to-do__contents li {
-  margin: 5px 0px;
+  margin: 10px 0px;
+  width: 100vw;
+  text-align: center;
+  transition: all 1s linear;
 }

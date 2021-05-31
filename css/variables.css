@@ -1,2 +1,4 @@
 :root {
+  --test: 67px;
+  --testani: 3s ease-in-out forwards;
 }
