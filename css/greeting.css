@@ -1,0 +1,11 @@
+.greeting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.greeting input {
+  font-size: 16px;
+  margin-left: 10px;
+}

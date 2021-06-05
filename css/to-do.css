@@ -95,3 +95,13 @@
 .to-do__contents > * {
   animation: typingAnimation 3.5s ease-in-out;
 }
+
+.to-do__contents span:not(.clock) {
+  margin-right: 10px;
+}
+
+.to-do__contents .clock {
+  font-size: 14px;
+  font-family: initial;
+  font-weight: 300;
+}
