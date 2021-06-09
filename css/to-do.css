@@ -8,6 +8,7 @@
 }
 
 .to-do__title {
+  font-family: "Pattaya";
   font-size: 100px;
   animation: fadeInMainTitleAnimation 1s ease-in-out forwards;
   opacity: 0;

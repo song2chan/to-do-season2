@@ -5,7 +5,27 @@
   margin-top: 10px;
 }
 
-.greeting input {
+.name__content {
+  margin-left: 5px;
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: skyblue;
+  }
+}
+
+.name__input {
+  border: none;
+  opacity: 0;
+  border-left: 0.15em solid skyblue;
   font-size: 16px;
-  margin-left: 10px;
+}
+
+.name__input:focus {
+  animation: blink-caret 0.75s step-end infinite;
 }
